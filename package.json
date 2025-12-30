@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "check": "node src/index.ts",
-    "check:dry": "DRY_RUN=true node src/index.ts"
+    "check:dry": "DRY_RUN=true node src/index.ts",
+    "test": "node --test src/__tests__/*.test.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",
