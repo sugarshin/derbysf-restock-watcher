@@ -1,5 +1,5 @@
-import type { ShopifyProduct, StockCheckResult } from "./types.js";
-import { config } from "./config.js";
+import type { ShopifyProduct, StockCheckResult } from "./types.ts";
+import { config } from "./config.ts";
 
 export async function checkStock(): Promise<StockCheckResult> {
   try {

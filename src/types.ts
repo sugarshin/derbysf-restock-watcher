@@ -35,3 +35,9 @@ export interface PushoverPayload {
   priority?: number;
   sound?: string;
 }
+
+export interface StockState {
+  lastCheck: string;
+  wasInStock: boolean;
+  variantId: number;
+}

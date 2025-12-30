@@ -4,12 +4,11 @@
   "description": "Derby SF restock notification system",
   "type": "module",
   "scripts": {
-    "check": "tsx src/index.ts",
-    "check:dry": "DRY_RUN=true tsx src/index.ts"
+    "check": "node src/index.ts",
+    "check:dry": "DRY_RUN=true node src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",
-    "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   },
   "engines": {

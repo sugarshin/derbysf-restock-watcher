@@ -1,5 +1,5 @@
-import type { StockCheckResult, PushoverPayload } from "./types.js";
-import { config } from "./config.js";
+import type { StockCheckResult, PushoverPayload } from "./types.ts";
+import { config } from "./config.ts";
 
 export async function sendRestockNotification(
   result: StockCheckResult
