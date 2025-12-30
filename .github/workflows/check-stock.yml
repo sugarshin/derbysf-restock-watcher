@@ -2,7 +2,7 @@ name: Check Stock
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/36 * * * *"
   workflow_dispatch:
 
 jobs:
